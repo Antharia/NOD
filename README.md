@@ -17,7 +17,7 @@ to launch MAP. Read map.nod for more information.
 ## List
   list -n
   to list all nods
-  list -t
-  to list all tags
+  list -l
+  to list all links
 
   
