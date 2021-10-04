@@ -1,0 +1,43 @@
+NOD
+
+NOD <nod> est un système de fichiers en graphe, basé sur des noeuds et des liens.
+Chaque nod est un fichier texte, pouvant être lu par des humains, reliés à
+d'autres nods par des tags.
+
+Vous lisez ici-même un fichier nod.
+
+Chaque nod doit avoir un nom unique, insensible à la casse.
+Si besoin, un nom de nod peut être précédé d'un nombre unique à 14 chiffres :
+YYYYMMDDHHMMSS
+
+<meta>
+Voici le tag meta, qui va contenir tous les nods concernant NOD.
+
+Un tag ne peut contenir un autre tag. Un tag commence par < et finit 
+par >. Il ne contient pas d'espaces, de tabulations, ou de retour à la ligne.
+
+Un nod peut être relié à un fichier binaire, par défaut dans le répertoire bin.
+
+
+Les nods peuvent être lus, édités, supprimés grâce à plusieurs outils. <tools>
+
+IDM permet de visualiser les images et de faire des présentations.
+DOT permet de gérer ses listes de tâches.
+LOG permet de tenir un journal, ie des notes chronologiques.
+MAP permet des lister, afficher, éditer les nods.
+HUB permet de transformer des nods en un site web statique, ie en un ensemble de
+fichiers html.
+
+Autres idées non validées :
+ZET permet de tenir un zetteltasken et d'en faire un livre mis en page avec
+Latex.
+AMP (Audio Media Player) permet d'écouter des fichiers audio. Un nod pouvant
+contenir une playlist de fichiers. Il est possible de créer un nod à partir
+d'un répertoire de fichiers ou d'une liste de fichiers définie par
+l'utilisateur.
+
+Par convention, le nombre de caractères par ligne d'un fichier nod est maximum
+de 79, et doit être lisible par un être humain. La longueur maximale d'un nom
+de nod est 128 caractères.
+
+

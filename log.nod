@@ -1,0 +1,12 @@
+LOG
+
+<meta>
+
+LOG est une application permettant de tenir un journal fait de fichiers nod.
+Pour cela il est nécessaire de rassembler les nod contenant un tag particulier.
+Ce tag serait <log> par défaut, mais pourra être changé par l'utilisateur, de
+cette façon il pourra tenir plusieurs journaux.
+
+Il sera possible d'ajouter un numéro, comme la date de création du nod,
+automatiquement en se basant sur la date de création du fichier. L'utilisateur
+pourra ajouter ce numéro à la main.

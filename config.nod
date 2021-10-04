@@ -1,0 +1,18 @@
+CONFIG
+
+Vous lisez le fichier de configuration de NOD.
+
+<nod>
+
+Liste des mot-clefs de NOD : set, to
+Ne pas commencer une ligne avec set à moins que ce soit intentionnel, ie
+assigner une valeur à une variable.
+
+Liste des variables :
+- nod_directory : répertoire où se trouve les nods
+- bin_directory : répoertoire où se trouve les binaires
+- nod_editor    : application permettant d'éditer les nods
+
+
+set nod_directory to "/home/antharia/Dev/python/nod"
+set nod_editor to vim

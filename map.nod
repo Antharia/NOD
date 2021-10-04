@@ -1,0 +1,42 @@
+MAP
+
+MAP est une application de l'écosystème <nod>. Map permet d'explorer les 
+nods. Avec MAP, on peut créer, lire, éditer, effacer des nods. On peut 
+lister les nods de différentes façons ainsi que les liens (voir la commande
+list).
+MAP est une console REPL. Elle attend des commandes de l'utilisateur.
+
+## Liste des commandes
+
+list
+
+list prend des arguments.
+
+    nods or -n : liste tous les nods
+
+    links or -l : liste tous les links utilisés 
+
+    -l [nod]  : liste tous les tags d'un nod
+           list -t [nod] 
+
+    -n [link]  : liste tous les nods liés à un link
+
+    orphans or -o : liste les nods orphelins, sans liens vers eux
+
+    uniq or -u : liste tous les nods avec un seul lien vers eux
+
+    ends or -e : liste tous les nods ne comportant aucun lien
+
+    path or -p : list -p [nodA] [nodB]
+                 liste les chemins reliant nodA à nodB, du plus court au plus
+                 long
+    -f : indique si les liens listés pointent vers un nod
+
+
+exit
+
+show
+
+edit
+
+<meta>
